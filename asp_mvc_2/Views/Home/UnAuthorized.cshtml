@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "UnAuthorized";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+
+<body>
+    <h2>Unauthorized Access!</h2>
+    <p>Oops! You don't have permission to access this page.</p>
+
+    <div>
+        @Html.ActionLink("Back to Main", "Welcome", "Home")
+        
+    </div>
+</body>
+</html>
